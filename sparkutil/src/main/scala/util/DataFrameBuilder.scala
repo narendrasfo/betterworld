@@ -13,6 +13,7 @@ object DataFrameBuilder {
     val datatypes = dataType.map(x => x.toLowerCase).map {
       case "String" => StringType
       case "IntegerType" => IntegerType
+      case "integertype" => IntegerType
       case "LongType" => LongType
       case "DoubleType" => DoubleType
       case "FloatType" => FloatType
